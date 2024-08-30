@@ -39,7 +39,7 @@ def scrape_all_countries(main_url):
     for link in country_links:
         country_name = link.split('/')[-1]  # Extrai o nome do país do link
         country_url = f"http://localhost:8000{link}"
-        print(f"\n=============Printando HTML de {country_name}...=============\n")
+        print(f"\n============= Printando HTML de {country_name} =============\n")
         html_content = fetch_html(country_url)
         if html_content:
             soup = BeautifulSoup(html_content, 'html.parser')
