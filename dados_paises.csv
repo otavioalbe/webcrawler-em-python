@@ -1,251 +1,252 @@
-País,Nome da moeda,Continente,Países vizinhos,Timestamp
-Afghanistan,Afghani,AS,"Turkmenistan, China, Iran, Tajikistan, Pakistan, Uzbekistan",2024-08-31T14:33:02.845608
-Aland Islands,Euro,EU,,2024-08-31T14:33:05.478581
-Albania,Lek,EU,"Macedonia, Greece, Serbia and Montenegro, Montenegro, Serbia, Kosovo",2024-08-31T14:33:07.137593
-Algeria,Dinar,AF,"Niger, Western Sahara, Libya, Mauritania, Tunisia, Morocco, Mali",2024-08-31T14:33:07.215594
-American Samoa,Dollar,OC,,2024-08-31T14:33:05.700256
-Andorra,Euro,EU,"Spain, France",2024-08-31T14:33:03.005919
-Angola,Kwanza,AF,"Democratic Republic of the Congo, Namibia, Zambia, Republic of the Congo",2024-08-31T14:33:03.285787
-Anguilla,Dollar,NA,,2024-08-31T14:33:03.368380
-Antarctica,,AN,,2024-08-31T14:33:03.449383
-Antigua and Barbuda,Dollar,NA,,2024-08-31T14:33:03.533398
-Argentina,Peso,SA,"Chile, Bolivia, Uruguay, Paraguay, Brazil",2024-08-31T14:33:14.714358
-Armenia,Dram,AS,"Georgia, Iran, Azerbaijan, Turkey",2024-08-31T14:33:13.640798
-Aruba,Guilder,NA,,2024-08-31T14:33:09.977710
-Australia,Dollar,OC,,2024-08-31T14:33:10.388521
-Austria,Euro,EU,"Switzerland, Germany, Hungary, Slovakia, Czech Republic, Italy, Slovenia, Liechtenstein",2024-08-31T14:33:16.033786
-Azerbaijan,Manat,AS,"Georgia, Iran, Armenia, Turkey, Russia",2024-08-31T14:33:15.863783
-Bahamas,Dollar,NA,,2024-08-31T14:33:12.075446
-Bahrain,Dinar,AS,,2024-08-31T14:33:13.837480
-Bangladesh,Taka,AS,"Myanmar, India",2024-08-31T14:33:15.934785
-Barbados,Dollar,NA,,2024-08-31T14:33:15.456523
-Belarus,Ruble,EU,"Poland, Lithuania, Ukraine, Russia, Latvia",2024-08-31T14:33:22.980134
-Belgium,Euro,EU,"Germany, Netherlands, Luxembourg, France",2024-08-31T14:33:21.851773
-Belize,Dollar,NA,"Guatemala, Mexico",2024-08-31T14:33:19.482703
-Benin,Franc,AF,"Niger, Togo, Burkina Faso, Nigeria",2024-08-31T14:33:22.053261
-Bermuda,Dollar,NA,,2024-08-31T14:33:18.838281
-Bhutan,Ngultrum,AS,"China, India",2024-08-31T14:33:21.623397
-Bolivia,Boliviano,SA,"Peru, Chile, Paraguay, Brazil, Argentina",2024-08-31T14:33:24.559634
-"Bonaire, Saint Eustatius and Saba",Dollar,NA,,2024-08-31T14:33:23.158722
-Bosnia and Herzegovina,Marka,EU,"Serbia and Montenegro, Croatia, Montenegro, Serbia",2024-08-31T14:33:24.731307
-Botswana,Pula,AF,"Zimbabwe, South Africa, Namibia",2024-08-31T14:33:24.684307
-Bouvet Island,Krone,AN,,2024-08-31T14:33:27.336916
-Brazil,Real,SA,"Suriname, Peru, Bolivia, Uruguay, Guyana, Paraguay, French Guiana, Venezuela, Colombia, Argentina",2024-08-31T14:33:34.841352
-British Indian Ocean Territory,Dollar,AS,,2024-08-31T14:33:27.090482
-British Virgin Islands,Dollar,NA,,2024-08-31T14:33:27.398611
-Brunei,Dollar,AS,Malaysia,2024-08-31T14:33:27.156240
-Bulgaria,Lev,EU,"Macedonia, Greece, Romania, Serbia and Montenegro, Turkey, Serbia",2024-08-31T14:33:33.788366
-Burkina Faso,Franc,AF,"Niger, Benin, Ghana, Ivory Coast, Togo, Mali",2024-08-31T14:33:33.850367
-Burundi,Franc,AF,"Tanzania, Democratic Republic of the Congo, Rwanda",2024-08-31T14:33:31.361735
-Cambodia,Riels,AS,"Laos, Thailand, Vietnam",2024-08-31T14:33:31.463385
-Cameroon,Franc,AF,"Chad, Central African Republic, Gabon, Equatorial Guinea, Republic of the Congo, Nigeria",2024-08-31T14:33:34.891353
-Canada,Dollar,NA,United States,2024-08-31T14:33:36.427482
-Cape Verde,Escudo,AF,,2024-08-31T14:33:36.354922
-Cayman Islands,Dollar,NA,,2024-08-31T14:33:39.687349
-Chad,Franc,AF,"Niger, Libya, Central African Republic, Sudan, Cameroon, Nigeria",2024-08-31T14:33:42.492897
-Chile,Peso,SA,"Peru, Bolivia, Argentina",2024-08-31T14:33:41.431004
-China,Yuan Renminbi,AS,"Laos, Bhutan, Tajikistan, Kazakhstan, Mongolia, Afghanistan, Nepal, Myanmar, Kyrgyzstan, Pakistan, North Korea, Russia, Vietnam, India",2024-08-31T14:33:42.701896
-Christmas Island,Dollar,AS,,2024-08-31T14:33:36.860682
-Cocos Islands,Dollar,AS,,2024-08-31T14:33:37.321285
-Colombia,Peso,SA,"Ecuador, Peru, Panama, Brazil, Venezuela",2024-08-31T14:33:41.530005
-Comoros,Franc,AF,,2024-08-31T14:33:45.001494
-Cook Islands,Dollar,OC,,2024-08-31T14:33:45.277744
-Costa Rica,Colon,NA,"Panama, Nicaragua",2024-08-31T14:33:46.143840
-Croatia,Kuna,EU,"Hungary, Slovenia, Serbia and Montenegro, Bosnia and Herzegovina, Montenegro, Serbia",2024-08-31T14:33:49.186142
-Cuba,Peso,NA,United States,2024-08-31T14:33:45.385442
-Curacao,Guilder,NA,,2024-08-31T14:33:46.577722
-Cyprus,Euro,EU,,2024-08-31T14:33:46.889417
-Czech Republic,Koruna,EU,"Poland, Germany, Slovakia, Austria",2024-08-31T14:33:49.044446
-Democratic Republic of the Congo,Franc,AF,"Tanzania, Central African Republic, South Sudan, Rwanda, Zambia, Burundi, Uganda, Republic of the Congo, Angola",2024-08-31T14:33:49.483537
-Denmark,Krone,EU,Germany,2024-08-31T14:33:47.849448
-Djibouti,Franc,AF,"Eritrea, Ethiopia, Somalia",2024-08-31T14:33:54.392655
-Dominica,Dollar,NA,,2024-08-31T14:33:51.847010
-Dominican Republic,Peso,NA,Haiti,2024-08-31T14:33:52.139437
-East Timor,Dollar,OC,Indonesia,2024-08-31T14:33:52.053935
-Ecuador,Dollar,SA,"Peru, Colombia",2024-08-31T14:33:53.014909
-Egypt,Pound,AF,"Libya, Sudan, Israel",2024-08-31T14:33:55.279461
-El Salvador,Dollar,NA,"Guatemala, Honduras",2024-08-31T14:33:54.698028
-Equatorial Guinea,Franc,AF,"Gabon, Cameroon",2024-08-31T14:33:54.825216
-Eritrea,Nakfa,AF,"Ethiopia, Sudan, Djibouti",2024-08-31T14:33:55.624516
-Estonia,Euro,EU,"Russia, Latvia",2024-08-31T14:33:55.643516
-Ethiopia,Birr,AF,"Eritrea, Kenya, Sudan, South Sudan, Somalia, Djibouti",2024-08-31T14:34:03.474222
-Falkland Islands,Pound,SA,,2024-08-31T14:34:01.260780
-Faroe Islands,Krone,EU,,2024-08-31T14:33:58.657248
-Fiji,Dollar,OC,,2024-08-31T14:33:58.837065
-Finland,Euro,EU,"Norway, Russia, Sweden",2024-08-31T14:34:00.614781
-France,Euro,EU,"Switzerland, Germany, Belgium, Luxembourg, Italy, Andorra, Monaco, Spain",2024-08-31T14:34:03.881008
-French Guiana,Euro,SA,"Suriname, Brazil",2024-08-31T14:34:01.371779
-French Polynesia,Franc,OC,,2024-08-31T14:34:02.235789
-French Southern Territories,Euro,AN,,2024-08-31T14:34:02.683992
-Gabon,Franc,AF,"Cameroon, Equatorial Guinea, Republic of the Congo",2024-08-31T14:34:03.753154
-Gambia,Dalasi,AF,Senegal,2024-08-31T14:34:06.198930
-Georgia,Lari,AS,"Armenia, Azerbaijan, Turkey, Russia",2024-08-31T14:34:09.725128
-Germany,Euro,EU,"Switzerland, Poland, Netherlands, Denmark, Belgium, Czech Republic, Luxembourg, France, Austria",2024-08-31T14:34:10.889134
-Ghana,Cedi,AF,"Ivory Coast, Togo, Burkina Faso",2024-08-31T14:34:08.552960
-Gibraltar,Pound,EU,Spain,2024-08-31T14:34:06.587330
-Greece,Euro,EU,"Albania, Macedonia, Turkey, Bulgaria",2024-08-31T14:34:10.566019
-Greenland,Krone,NA,,2024-08-31T14:34:08.234900
-Grenada,Dollar,NA,,2024-08-31T14:34:09.820628
-Guadeloupe,Euro,NA,Netherlands Antilles,2024-08-31T14:34:10.083827
-Guam,Dollar,OC,,2024-08-31T14:34:10.683135
-Guatemala,Quetzal,NA,"Mexico, Honduras, Belize, El Salvador",2024-08-31T14:34:18.566570
-Guernsey,Pound,EU,,2024-08-31T14:34:13.041958
-Guinea,Franc,AF,"Liberia, Senegal, Sierra Leone, Ivory Coast, Guinea-Bissau, Mali",2024-08-31T14:34:18.355386
-Guinea-Bissau,Franc,AF,"Senegal, Guinea",2024-08-31T14:34:13.936606
-Guyana,Dollar,SA,"Suriname, Brazil, Venezuela",2024-08-31T14:34:15.370333
-Haiti,Gourde,NA,Dominican Republic,2024-08-31T14:34:14.300628
-Heard Island and McDonald Islands,Dollar,AN,,2024-08-31T14:34:15.602573
-Honduras,Lempira,NA,"Guatemala, Nicaragua, El Salvador",2024-08-31T14:34:18.213255
-Hong Kong,Dollar,AS,,2024-08-31T14:34:17.244613
-Hungary,Forint,EU,"Slovakia, Slovenia, Romania, Ukraine, Serbia and Montenegro, Croatia, Austria, Serbia",2024-08-31T14:34:18.900557
-Iceland,Krona,EU,,2024-08-31T14:34:21.223482
-India,Rupee,AS,"China, Nepal, Myanmar, Bhutan, Pakistan, Bangladesh",2024-08-31T14:34:27.171375
-Indonesia,Rupiah,AS,"Papua New Guinea, East Timor, Malaysia",2024-08-31T14:34:23.610509
-Iran,Rial,AS,"Turkmenistan, Afghanistan, Iraq, Armenia, Pakistan, Azerbaijan, Turkey",2024-08-31T14:34:28.059508
-Iraq,Dinar,AS,"Syria, Saudi Arabia, Iran, Jordan, Turkey, Kuwait",2024-08-31T14:34:26.929497
-Ireland,Euro,EU,United Kingdom,2024-08-31T14:34:22.866516
-Isle of Man,Pound,EU,,2024-08-31T14:34:24.552357
-Israel,Shekel,AS,"Syria, Jordan, Lebanon, Egypt, Palestinian Territory",2024-08-31T14:34:28.957110
-Italy,Euro,EU,"Switzerland, Vatican, Slovenia, San Marino, France, Austria",2024-08-31T14:34:29.498539
-Ivory Coast,Franc,AF,"Liberia, Ghana, Guinea, Burkina Faso, Mali",2024-08-31T14:34:29.569935
-Japan,Yen,AS,,2024-08-31T14:34:31.441611
-Jersey,Pound,EU,,2024-08-31T14:34:31.481731
-Jordan,Dinar,AS,"Syria, Saudi Arabia, Iraq, Israel, Palestinian Territory",2024-08-31T14:34:35.047319
-Kazakhstan,Tenge,AS,"Turkmenistan, China, Kyrgyzstan, Uzbekistan, Russia",2024-08-31T14:34:37.293786
-Kenya,Shilling,AF,"Ethiopia, Tanzania, South Sudan, Somalia, Uganda",2024-08-31T14:34:37.214785
-Kiribati,Dollar,OC,,2024-08-31T14:34:32.314625
-Kosovo,Euro,EU,"Serbia, Albania, Macedonia, Montenegro",2024-08-31T14:34:35.389651
-Kuwait,Dinar,AS,"Saudi Arabia, Iraq",2024-08-31T14:34:34.604189
-Kyrgyzstan,Som,AS,"China, Tajikistan, Uzbekistan, Kazakhstan",2024-08-31T14:34:37.340786
-Laos,Kip,AS,"China, Myanmar, Cambodia, Thailand, Vietnam",2024-08-31T14:34:44.723836
-Latvia,Euro,EU,"Lithuania, Estonia, Belarus, Russia",2024-08-31T14:34:43.555239
-Lebanon,Pound,AS,"Syria, Israel",2024-08-31T14:34:41.679012
-Lesotho,Loti,AF,South Africa,2024-08-31T14:34:40.366058
-Liberia,Dollar,AF,"Sierra Leone, Ivory Coast, Guinea",2024-08-31T14:34:42.898478
-Libya,Dinar,AF,"Chad, Niger, Algeria, Sudan, Tunisia, Egypt",2024-08-31T14:34:46.570357
-Liechtenstein,Franc,EU,"Switzerland, Austria",2024-08-31T14:34:44.416808
-Lithuania,Litas,EU,"Poland, Belarus, Russia, Latvia",2024-08-31T14:34:46.587377
-Luxembourg,Euro,EU,"Germany, Belgium, France",2024-08-31T14:34:46.513500
-Macao,Pataca,AS,,2024-08-31T14:34:45.693847
-Macedonia,Denar,EU,"Albania, Greece, Serbia and Montenegro, Bulgaria, Serbia, Kosovo",2024-08-31T14:34:53.875562
-Madagascar,Ariary,AF,,2024-08-31T14:34:49.418778
-Malawi,Kwacha,AF,"Tanzania, Mozambique, Zambia",2024-08-31T14:34:51.489127
-Malaysia,Ringgit,AS,"Brunei, Thailand, Indonesia",2024-08-31T14:34:51.389946
-Maldives,Rufiyaa,AS,,2024-08-31T14:34:49.348763
-Mali,Franc,AF,"Senegal, Niger, Algeria, Ivory Coast, Guinea, Mauritania, Burkina Faso",2024-08-31T14:34:54.519056
-Malta,Euro,EU,,2024-08-31T14:34:51.151943
-Marshall Islands,Dollar,OC,,2024-08-31T14:34:52.761787
-Martinique,Euro,NA,,2024-08-31T14:34:52.948024
-Mauritania,Ouguiya,AF,"Senegal, Algeria, Western Sahara, Mali",2024-08-31T14:34:54.445035
-Mauritius,Rupee,AF,,2024-08-31T14:34:56.760421
-Mayotte,Euro,AF,,2024-08-31T14:34:59.305184
-Mexico,Peso,NA,"Guatemala, United States, Belize",2024-08-31T14:34:58.562191
-Micronesia,Dollar,OC,,2024-08-31T14:34:56.925776
-Moldova,Leu,EU,"Romania, Ukraine",2024-08-31T14:34:57.770196
-Monaco,Euro,EU,France,2024-08-31T14:34:57.913676
-Mongolia,Tugrik,AS,"China, Russia",2024-08-31T14:34:59.152770
-Montenegro,Euro,EU,"Albania, Croatia, Bosnia and Herzegovina, Serbia, Kosovo",2024-08-31T14:35:00.297079
-Montserrat,Dollar,NA,,2024-08-31T14:34:59.418038
-Morocco,Dirham,AF,"Algeria, Western Sahara, Spain",2024-08-31T14:35:00.221079
-Mozambique,Metical,AF,"Zimbabwe, Tanzania, Swaziland, South Africa, Zambia, Malawi",2024-08-31T14:35:07.783544
-Myanmar,Kyat,AS,"China, Laos, Thailand, Bangladesh, India",2024-08-31T14:35:07.141922
-Namibia,Dollar,AF,"South Africa, Botswana, Zambia, Angola",2024-08-31T14:35:06.172467
-Nauru,Dollar,OC,,2024-08-31T14:35:03.103774
-Nepal,Rupee,AS,"China, India",2024-08-31T14:35:04.029794
-Netherlands,Euro,EU,"Germany, Belgium",2024-08-31T14:35:05.938211
-Netherlands Antilles,Guilder,NA,Guadeloupe,2024-08-31T14:35:05.701427
-New Caledonia,Franc,OC,,2024-08-31T14:35:07.329782
-New Zealand,Dollar,OC,,2024-08-31T14:35:07.467090
-Nicaragua,Cordoba,NA,"Costa Rica, Honduras",2024-08-31T14:35:07.803562
-Niger,Franc,AF,"Chad, Benin, Algeria, Libya, Burkina Faso, Nigeria, Mali",2024-08-31T14:35:16.008007
-Nigeria,Naira,AF,"Chad, Niger, Benin, Cameroon",2024-08-31T14:35:13.341764
-Niue,Dollar,OC,,2024-08-31T14:35:10.410476
-Norfolk Island,Dollar,OC,,2024-08-31T14:35:10.630688
-North Korea,Won,AS,"China, South Korea, Russia",2024-08-31T14:35:15.391067
-Northern Mariana Islands,Dollar,OC,,2024-08-31T14:35:11.641766
-Norway,Krone,EU,"Finland, Russia, Sweden",2024-08-31T14:35:14.066010
-Oman,Rial,AS,"Saudi Arabia, Yemen, United Arab Emirates",2024-08-31T14:35:15.485580
-Pakistan,Rupee,AS,"China, Afghanistan, Iran, India",2024-08-31T14:35:16.080521
-Palau,Dollar,OC,,2024-08-31T14:35:15.699120
-Palestinian Territory,Shekel,AS,"Jordan, Israel",2024-08-31T14:35:20.107134
-Panama,Balboa,NA,"Costa Rica, Colombia",2024-08-31T14:35:19.898406
-Papua New Guinea,Kina,OC,Indonesia,2024-08-31T14:35:18.917818
-Paraguay,Guarani,SA,"Bolivia, Brazil, Argentina",2024-08-31T14:35:21.565543
-Peru,Sol,SA,"Ecuador, Chile, Bolivia, Brazil, Colombia",2024-08-31T14:35:23.009203
-Philippines,Peso,AS,,2024-08-31T14:35:20.658850
-Pitcairn,Dollar,OC,,2024-08-31T14:35:21.660337
-Poland,Zloty,EU,"Germany, Lithuania, Slovakia, Czech Republic, Belarus, Ukraine, Russia",2024-08-31T14:35:23.264604
-Portugal,Euro,EU,Spain,2024-08-31T14:35:22.243404
-Puerto Rico,Dollar,NA,,2024-08-31T14:35:22.870485
-Qatar,Rial,AS,Saudi Arabia,2024-08-31T14:35:25.617480
-Republic of the Congo,Franc,AF,"Central African Republic, Gabon, Democratic Republic of the Congo, Cameroon, Angola",2024-08-31T14:35:30.581208
-Reunion,Euro,AF,,2024-08-31T14:35:25.683113
-Romania,Leu,EU,"Moldova, Hungary, Ukraine, Serbia and Montenegro, Bulgaria, Serbia",2024-08-31T14:35:31.614604
-Russia,Ruble,EU,"Georgia, China, Belarus, Ukraine, Kazakhstan, Latvia, Poland, Estonia, Lithuania, Finland, Mongolia, Norway, Azerbaijan, North Korea",2024-08-31T14:35:32.259614
-Rwanda,Franc,AF,"Tanzania, Democratic Republic of the Congo, Burundi, Uganda",2024-08-31T14:35:30.899218
-Saint Barthelemy,Euro,NA,,2024-08-31T14:35:27.608574
-Saint Helena,Pound,AF,,2024-08-31T14:35:29.421098
-Saint Kitts and Nevis,Dollar,NA,,2024-08-31T14:35:31.053311
-Saint Lucia,Dollar,NA,,2024-08-31T14:35:31.726612
-Saint Martin,Euro,NA,Sint Maarten,2024-08-31T14:35:34.513537
-Saint Pierre and Miquelon,Euro,NA,,2024-08-31T14:35:34.804053
-Saint Vincent and the Grenadines,Dollar,NA,,2024-08-31T14:35:34.738422
-Samoa,Tala,OC,,2024-08-31T14:35:34.637347
-San Marino,Euro,EU,Italy,2024-08-31T14:35:37.208437
-Sao Tome and Principe,Dobra,AF,,2024-08-31T14:35:35.848281
-Saudi Arabia,Rial,AS,"Qatar, Oman, Iraq, Yemen, Jordan, United Arab Emirates, Kuwait",2024-08-31T14:35:41.128318
-Senegal,Franc,AF,"Guinea, Mauritania, Guinea-Bissau, Gambia, Mali",2024-08-31T14:35:39.914329
-Serbia,Dinar,EU,"Albania, Hungary, Macedonia, Romania, Croatia, Bosnia and Herzegovina, Bulgaria, Montenegro, Kosovo",2024-08-31T14:35:41.624250
-Serbia and Montenegro,Dinar,EU,"Albania, Hungary, Macedonia, Romania, Croatia, Bosnia and Herzegovina, Bulgaria",2024-08-31T14:35:41.577706
-Seychelles,Rupee,AF,,2024-08-31T14:35:44.221932
-Sierra Leone,Leone,AF,"Liberia, Guinea",2024-08-31T14:35:45.057022
-Singapore,Dollar,AS,,2024-08-31T14:35:44.349388
-Sint Maarten,Guilder,NA,Saint Martin,2024-08-31T14:35:44.042629
-Slovakia,Euro,EU,"Poland, Hungary, Czech Republic, Ukraine, Austria",2024-08-31T14:35:48.383159
-Slovenia,Euro,EU,"Hungary, Italy, Croatia, Austria",2024-08-31T14:35:48.501607
-Solomon Islands,Dollar,OC,,2024-08-31T14:35:45.820552
-Somalia,Shilling,AF,"Ethiopia, Kenya, Djibouti",2024-08-31T14:35:48.127168
-South Africa,Rand,AF,"Zimbabwe, Swaziland, Mozambique, Botswana, Namibia, Lesotho",2024-08-31T14:35:48.708971
-South Georgia and the South Sandwich Islands,Pound,AN,,2024-08-31T14:35:47.528323
-South Korea,Won,AS,North Korea,2024-08-31T14:35:51.259032
-South Sudan,Pound,AF,"Democratic Republic of the Congo, Central African Republic, Ethiopia, Kenya, Sudan, Uganda",2024-08-31T14:35:57.171468
-Spain,Euro,EU,"Andorra, Portugal, Gibraltar, France, Morocco",2024-08-31T14:35:55.651465
-Sri Lanka,Rupee,AS,,2024-08-31T14:35:51.400040
-Sudan,Pound,AF,"South Sudan, Chad, Egypt, Ethiopia, Eritrea, Libya, Central African Republic",2024-08-31T14:35:57.241467
-Suriname,Dollar,SA,"Guyana, Brazil, French Guiana",2024-08-31T14:35:54.977406
-Svalbard and Jan Mayen,Krone,EU,,2024-08-31T14:35:53.025566
-Swaziland,Lilangeni,AF,"South Africa, Mozambique",2024-08-31T14:35:55.772268
-Sweden,Krona,EU,"Norway, Finland",2024-08-31T14:35:57.290476
-Switzerland,Franc,EU,"Germany, Italy, Liechtenstein, France, Austria",2024-08-31T14:35:57.503881
-Syria,Pound,AS,"Iraq, Jordan, Israel, Turkey, Lebanon",2024-08-31T14:36:03.747740
-Taiwan,Dollar,AS,,2024-08-31T14:35:59.991038
-Tajikistan,Somoni,AS,"China, Afghanistan, Kyrgyzstan, Uzbekistan",2024-08-31T14:36:02.792600
-Tanzania,Shilling,AF,"Mozambique, Kenya, Democratic Republic of the Congo, Rwanda, Zambia, Burundi, Uganda, Malawi",2024-08-31T14:36:05.866936
-Thailand,Baht,AS,"Laos, Myanmar, Cambodia, Malaysia",2024-08-31T14:36:05.509393
-Togo,Franc,AF,"Benin, Ghana, Burkina Faso",2024-08-31T14:36:03.439535
-Tokelau,Dollar,OC,,2024-08-31T14:36:04.388275
-Tonga,Pa'anga,OC,,2024-08-31T14:36:05.041391
-Trinidad and Tobago,Dollar,NA,,2024-08-31T14:36:05.266393
-Tunisia,Dinar,AF,"Algeria, Libya",2024-08-31T14:36:05.847936
-Turkey,Lira,AS,"Syria, Georgia, Iraq, Iran, Greece, Armenia, Azerbaijan, Bulgaria",2024-08-31T14:36:15.148814
-Turkmenistan,Manat,AS,"Afghanistan, Iran, Uzbekistan, Kazakhstan",2024-08-31T14:36:11.787321
-Turks and Caicos Islands,Dollar,NA,,2024-08-31T14:36:08.638547
-Tuvalu,Dollar,OC,,2024-08-31T14:36:08.372823
-U.S. Virgin Islands,Dollar,NA,,2024-08-31T14:36:08.517455
-Uganda,Shilling,AF,"Tanzania, Kenya, South Sudan, Democratic Republic of the Congo, Rwanda",2024-08-31T14:36:14.394352
-Ukraine,Hryvnia,EU,"Poland, Moldova, Hungary, Slovakia, Belarus, Romania, Russia",2024-08-31T14:36:15.193813
-United Arab Emirates,Dirham,AS,"Saudi Arabia, Oman",2024-08-31T14:36:11.554752
-United Kingdom,Pound,EU,Ireland,2024-08-31T14:36:13.219260
-United States,Dollar,NA,"Canada, Mexico, Cuba",2024-08-31T14:36:15.006095
-United States Minor Outlying Islands,Dollar,OC,,2024-08-31T14:36:17.601072
-Uruguay,Peso,SA,"Brazil, Argentina",2024-08-31T14:36:18.691146
-Uzbekistan,Som,AS,"Turkmenistan, Afghanistan, Kyrgyzstan, Tajikistan, Kazakhstan",2024-08-31T14:36:22.245300
-Vanuatu,Vatu,OC,,2024-08-31T14:36:17.911300
-Vatican,Euro,EU,Italy,2024-08-31T14:36:17.772427
-Venezuela,Bolivar,SA,"Guyana, Brazil, Colombia",2024-08-31T14:36:21.776210
-Vietnam,Dong,AS,"China, Laos, Cambodia",2024-08-31T14:36:21.853446
-Wallis and Futuna,Franc,OC,,2024-08-31T14:36:19.767440
-Western Sahara,Dirham,AF,"Algeria, Mauritania, Morocco",2024-08-31T14:36:22.306319
-Yemen,Rial,AS,"Saudi Arabia, Oman",2024-08-31T14:36:22.293807
-Zambia,Kwacha,AF,"Zimbabwe, Tanzania, Mozambique, Democratic Republic of the Congo, Namibia, Malawi, Angola",2024-08-31T14:36:24.723809
-Zimbabwe,Dollar,AF,"South Africa, Mozambique, Botswana, Zambia",2024-08-31T14:36:23.639879
+Pais,Nome_da_moeda,Continente,Países_vizinhos,Timestamp
+Afghanistan,Afghani,AS,"Turkmenistan, China, Iran, Tajikistan, Pakistan, Uzbekistan",2024-08-31T16:27:36.941311
+Aland Islands,Euro,EU,,2024-08-31T16:27:39.715184
+Albania,Lek,EU,"Macedonia, Greece, Serbia and Montenegro, Montenegro, Serbia, Kosovo",2024-08-31T16:27:41.300502
+Algeria,Dinar,AF,"Niger, Western Sahara, Libya, Mauritania, Tunisia, Morocco, Mali",2024-08-31T16:27:41.376502
+American Samoa,Dollar,OC,,2024-08-31T16:27:39.663487
+Andorra,Euro,EU,"Spain, France",2024-08-31T16:27:37.106024
+Angola,Kwanza,AF,"Democratic Republic of the Congo, Namibia, Zambia, Republic of the Congo",2024-08-31T16:27:37.377418
+Anguilla,Dollar,NA,,2024-08-31T16:27:37.461989
+Antarctica,,AN,,2024-08-31T16:27:37.541931
+Antigua and Barbuda,Dollar,NA,,2024-08-31T16:27:37.624028
+Argentina,Peso,SA,"Chile, Bolivia, Uruguay, Paraguay, Brazil",2024-08-31T16:27:48.633376
+Armenia,Dram,AS,"Georgia, Iran, Azerbaijan, Turkey",2024-08-31T16:27:47.727503
+Aruba,Guilder,NA,,2024-08-31T16:27:44.633167
+Australia,Dollar,OC,,2024-08-31T16:27:44.795329
+Austria,Euro,EU,"Switzerland, Germany, Hungary, Slovakia, Czech Republic, Italy, Slovenia, Liechtenstein",2024-08-31T16:27:49.882782
+Azerbaijan,Manat,AS,"Georgia, Iran, Armenia, Turkey, Russia",2024-08-31T16:27:49.780782
+Bahamas,Dollar,NA,,2024-08-31T16:27:46.481339
+Bahrain,Dinar,AS,,2024-08-31T16:27:48.030301
+Bangladesh,Taka,AS,"Myanmar, India",2024-08-31T16:27:49.741841
+Barbados,Dollar,NA,,2024-08-31T16:27:49.328873
+Belarus,Ruble,EU,"Poland, Lithuania, Ukraine, Russia, Latvia",2024-08-31T16:27:56.246809
+Belgium,Euro,EU,"Germany, Netherlands, Luxembourg, France",2024-08-31T16:27:55.420941
+Belize,Dollar,NA,"Guatemala, Mexico",2024-08-31T16:27:53.427705
+Benin,Franc,AF,"Niger, Togo, Burkina Faso, Nigeria",2024-08-31T16:27:55.605262
+Bermuda,Dollar,NA,,2024-08-31T16:27:52.212281
+Bhutan,Ngultrum,AS,"China, India",2024-08-31T16:27:54.766508
+Bolivia,Boliviano,SA,"Peru, Chile, Paraguay, Brazil, Argentina",2024-08-31T16:27:57.890373
+"Bonaire, Saint Eustatius and Saba",Dollar,NA,,2024-08-31T16:27:56.302742
+Bosnia and Herzegovina,Marka,EU,"Serbia and Montenegro, Croatia, Montenegro, Serbia",2024-08-31T16:27:58.002055
+Botswana,Pula,AF,"Zimbabwe, South Africa, Namibia",2024-08-31T16:27:57.959451
+Bouvet Island,Krone,AN,,2024-08-31T16:28:00.087832
+Brazil,Real,SA,"Suriname, Peru, Bolivia, Uruguay, Guyana, Paraguay, French Guiana, Venezuela, Colombia, Argentina",2024-08-31T16:28:07.911487
+British Indian Ocean Territory,Dollar,AS,,2024-08-31T16:28:00.356169
+British Virgin Islands,Dollar,NA,,2024-08-31T16:28:00.293112
+Brunei,Dollar,AS,Malaysia,2024-08-31T16:28:02.767399
+Bulgaria,Lev,EU,"Macedonia, Greece, Romania, Serbia and Montenegro, Turkey, Serbia",2024-08-31T16:28:06.845262
+Burkina Faso,Franc,AF,"Niger, Benin, Ghana, Ivory Coast, Togo, Mali",2024-08-31T16:28:07.079217
+Burundi,Franc,AF,"Tanzania, Democratic Republic of the Congo, Rwanda",2024-08-31T16:28:04.119846
+Cambodia,Riels,AS,"Laos, Thailand, Vietnam",2024-08-31T16:28:06.584587
+Cameroon,Franc,AF,"Chad, Central African Republic, Gabon, Equatorial Guinea, Republic of the Congo, Nigeria",2024-08-31T16:28:07.985486
+Canada,Dollar,NA,United States,2024-08-31T16:28:10.266642
+Cape Verde,Escudo,AF,,2024-08-31T16:28:10.032039
+Cayman Islands,Dollar,NA,,2024-08-31T16:28:10.086039
+Central African Republic,Franc,AF,"Chad, Sudan, Democratic Republic of the Congo, South Sudan, Cameroon, Republic of the Congo",2024-08-31T16:28:16.685929
+Chad,Franc,AF,"Niger, Libya, Central African Republic, Sudan, Cameroon, Nigeria",2024-08-31T16:28:15.127070
+Chile,Peso,SA,"Peru, Bolivia, Argentina",2024-08-31T16:28:13.695573
+China,Yuan Renminbi,AS,"Laos, Bhutan, Tajikistan, Kazakhstan, Mongolia, Afghanistan, Nepal, Myanmar, Kyrgyzstan, Pakistan, North Korea, Russia, Vietnam, India",2024-08-31T16:28:17.450874
+Christmas Island,Dollar,AS,,2024-08-31T16:28:11.772542
+Cocos Islands,Dollar,AS,,2024-08-31T16:28:13.537106
+Colombia,Peso,SA,"Ecuador, Peru, Panama, Brazil, Venezuela",2024-08-31T16:28:17.121721
+Comoros,Franc,AF,,2024-08-31T16:28:19.664141
+Cook Islands,Dollar,OC,,2024-08-31T16:28:19.873629
+Costa Rica,Colon,NA,"Panama, Nicaragua",2024-08-31T16:28:20.551507
+Croatia,Kuna,EU,"Hungary, Slovenia, Serbia and Montenegro, Bosnia and Herzegovina, Montenegro, Serbia",2024-08-31T16:28:24.344595
+Cuba,Peso,NA,United States,2024-08-31T16:28:22.299866
+Curacao,Guilder,NA,,2024-08-31T16:28:21.358848
+Cyprus,Euro,EU,,2024-08-31T16:28:21.549683
+Czech Republic,Koruna,EU,"Poland, Germany, Slovakia, Austria",2024-08-31T16:28:24.402595
+Democratic Republic of the Congo,Franc,AF,"Tanzania, Central African Republic, South Sudan, Rwanda, Zambia, Burundi, Uganda, Republic of the Congo, Angola",2024-08-31T16:28:24.742637
+Denmark,Krone,EU,Germany,2024-08-31T16:28:23.117457
+Djibouti,Franc,AF,"Eritrea, Ethiopia, Somalia",2024-08-31T16:28:29.175909
+Dominican Republic,Peso,NA,Haiti,2024-08-31T16:28:26.893060
+East Timor,Dollar,OC,Indonesia,2024-08-31T16:28:27.142214
+Ecuador,Dollar,SA,"Peru, Colombia",2024-08-31T16:28:27.888582
+Egypt,Pound,AF,"Libya, Sudan, Israel",2024-08-31T16:28:31.060847
+El Salvador,Dollar,NA,"Guatemala, Honduras",2024-08-31T16:28:29.433846
+Equatorial Guinea,Franc,AF,"Gabon, Cameroon",2024-08-31T16:28:29.821847
+Eritrea,Nakfa,AF,"Ethiopia, Sudan, Djibouti",2024-08-31T16:28:31.106845
+Estonia,Euro,EU,"Russia, Latvia",2024-08-31T16:28:31.122848
+Ethiopia,Birr,AF,"Eritrea, Kenya, Sudan, South Sudan, Somalia, Djibouti",2024-08-31T16:28:38.050098
+Falkland Islands,Pound,SA,,2024-08-31T16:28:33.439940
+Faroe Islands,Krone,EU,,2024-08-31T16:28:33.501112
+Fiji,Dollar,OC,,2024-08-31T16:28:35.800591
+Finland,Euro,EU,"Norway, Russia, Sweden",2024-08-31T16:28:35.086662
+France,Euro,EU,"Switzerland, Germany, Belgium, Luxembourg, Italy, Andorra, Monaco, Spain",2024-08-31T16:28:38.646093
+French Guiana,Euro,SA,"Suriname, Brazil",2024-08-31T16:28:36.123852
+French Polynesia,Franc,OC,,2024-08-31T16:28:36.790371
+French Southern Territories,Euro,AN,,2024-08-31T16:28:37.297231
+Gabon,Franc,AF,"Cameroon, Equatorial Guinea, Republic of the Congo",2024-08-31T16:28:38.490092
+Gambia,Dalasi,AF,Senegal,2024-08-31T16:28:41.005168
+Georgia,Lari,AS,"Armenia, Azerbaijan, Turkey, Russia",2024-08-31T16:28:44.744290
+Germany,Euro,EU,"Switzerland, Poland, Netherlands, Denmark, Belgium, Czech Republic, Luxembourg, France, Austria",2024-08-31T16:28:46.214991
+Ghana,Cedi,AF,"Ivory Coast, Togo, Burkina Faso",2024-08-31T16:28:43.690078
+Gibraltar,Pound,EU,Spain,2024-08-31T16:28:41.117060
+Greece,Euro,EU,"Albania, Macedonia, Turkey, Bulgaria",2024-08-31T16:28:45.815988
+Greenland,Krone,NA,,2024-08-31T16:28:42.861527
+Grenada,Dollar,NA,,2024-08-31T16:28:44.638496
+Guadeloupe,Euro,NA,Netherlands Antilles,2024-08-31T16:28:45.308056
+Guam,Dollar,OC,,2024-08-31T16:28:45.868990
+Guatemala,Quetzal,NA,"Mexico, Honduras, Belize, El Salvador",2024-08-31T16:28:51.904507
+Guernsey,Pound,EU,,2024-08-31T16:28:51.564959
+Guinea,Franc,AF,"Liberia, Senegal, Sierra Leone, Ivory Coast, Guinea-Bissau, Mali",2024-08-31T16:28:53.826715
+Guinea-Bissau,Franc,AF,"Senegal, Guinea",2024-08-31T16:28:49.964518
+Guyana,Dollar,SA,"Suriname, Brazil, Venezuela",2024-08-31T16:28:51.198002
+Haiti,Gourde,NA,Dominican Republic,2024-08-31T16:28:51.660239
+Heard Island and McDonald Islands,Dollar,AN,,2024-08-31T16:28:52.926946
+Honduras,Lempira,NA,"Guatemala, Nicaragua, El Salvador",2024-08-31T16:28:54.193065
+Hong Kong,Dollar,AS,,2024-08-31T16:28:53.282843
+Hungary,Forint,EU,"Slovakia, Slovenia, Romania, Ukraine, Serbia and Montenegro, Croatia, Austria, Serbia",2024-08-31T16:28:54.518788
+Iceland,Krona,EU,,2024-08-31T16:28:57.488572
+India,Rupee,AS,"China, Nepal, Myanmar, Bhutan, Pakistan, Bangladesh",2024-08-31T16:29:03.180519
+Indonesia,Rupiah,AS,"Papua New Guinea, East Timor, Malaysia",2024-08-31T16:28:59.486934
+Iran,Rial,AS,"Turkmenistan, Afghanistan, Iraq, Armenia, Pakistan, Azerbaijan, Turkey",2024-08-31T16:29:04.482682
+Iraq,Dinar,AS,"Syria, Saudi Arabia, Iran, Jordan, Turkey, Kuwait",2024-08-31T16:29:03.566365
+Ireland,Euro,EU,United Kingdom,2024-08-31T16:28:59.149521
+Isle of Man,Pound,EU,,2024-08-31T16:29:00.908822
+Israel,Shekel,AS,"Syria, Jordan, Lebanon, Egypt, Palestinian Territory",2024-08-31T16:29:05.332608
+Italy,Euro,EU,"Switzerland, Vatican, Slovenia, San Marino, France, Austria",2024-08-31T16:29:06.336631
+Ivory Coast,Franc,AF,"Liberia, Ghana, Guinea, Burkina Faso, Mali",2024-08-31T16:29:06.383633
+Jamaica,Dollar,NA,,2024-08-31T16:29:08.257322
+Japan,Yen,AS,,2024-08-31T16:29:08.319951
+Jersey,Pound,EU,,2024-08-31T16:29:08.380110
+Jordan,Dinar,AS,"Syria, Saudi Arabia, Iraq, Israel, Palestinian Territory",2024-08-31T16:29:14.752240
+Kazakhstan,Tenge,AS,"Turkmenistan, China, Kyrgyzstan, Uzbekistan, Russia",2024-08-31T16:29:14.699021
+Kenya,Shilling,AF,"Ethiopia, Tanzania, South Sudan, Somalia, Uganda",2024-08-31T16:29:13.595995
+Kiribati,Dollar,OC,,2024-08-31T16:29:09.394315
+Kosovo,Euro,EU,"Serbia, Albania, Macedonia, Montenegro",2024-08-31T16:29:13.133265
+Kuwait,Dinar,AS,"Saudi Arabia, Iraq",2024-08-31T16:29:12.263301
+Kyrgyzstan,Som,AS,"China, Tajikistan, Uzbekistan, Kazakhstan",2024-08-31T16:29:14.831672
+Laos,Kip,AS,"China, Myanmar, Cambodia, Thailand, Vietnam",2024-08-31T16:29:21.906442
+Latvia,Euro,EU,"Lithuania, Estonia, Belarus, Russia",2024-08-31T16:29:20.390343
+Lebanon,Pound,AS,"Syria, Israel",2024-08-31T16:29:18.489326
+Lesotho,Loti,AF,South Africa,2024-08-31T16:29:17.675785
+Liberia,Dollar,AF,"Sierra Leone, Ivory Coast, Guinea",2024-08-31T16:29:19.444007
+Libya,Dinar,AF,"Chad, Niger, Algeria, Sudan, Tunisia, Egypt",2024-08-31T16:29:23.627480
+Liechtenstein,Franc,EU,"Switzerland, Austria",2024-08-31T16:29:21.277737
+Lithuania,Litas,EU,"Poland, Belarus, Russia, Latvia",2024-08-31T16:29:23.609481
+Luxembourg,Euro,EU,"Germany, Belgium, France",2024-08-31T16:29:23.558772
+Macao,Pataca,AS,,2024-08-31T16:29:22.661286
+Macedonia,Denar,EU,"Albania, Greece, Serbia and Montenegro, Bulgaria, Serbia, Kosovo",2024-08-31T16:29:30.922967
+Madagascar,Ariary,AF,,2024-08-31T16:29:26.131410
+Malawi,Kwacha,AF,"Tanzania, Mozambique, Zambia",2024-08-31T16:29:30.743599
+Malaysia,Ringgit,AS,"Brunei, Thailand, Indonesia",2024-08-31T16:29:28.263480
+Maldives,Rufiyaa,AS,,2024-08-31T16:29:26.316912
+Mali,Franc,AF,"Senegal, Niger, Algeria, Ivory Coast, Guinea, Mauritania, Burkina Faso",2024-08-31T16:29:31.732419
+Malta,Euro,EU,,2024-08-31T16:29:27.804233
+Marshall Islands,Dollar,OC,,2024-08-31T16:29:29.495706
+Martinique,Euro,NA,,2024-08-31T16:29:29.940598
+Mauritania,Ouguiya,AF,"Senegal, Algeria, Western Sahara, Mali",2024-08-31T16:29:31.751420
+Mauritius,Rupee,AF,,2024-08-31T16:29:34.462483
+Mayotte,Euro,AF,,2024-08-31T16:29:34.593202
+Mexico,Peso,NA,"Guatemala, United States, Belize",2024-08-31T16:29:36.550329
+Micronesia,Dollar,OC,,2024-08-31T16:29:34.687010
+Moldova,Leu,EU,"Romania, Ukraine",2024-08-31T16:29:35.892139
+Monaco,Euro,EU,France,2024-08-31T16:29:36.127268
+Mongolia,Tugrik,AS,"China, Russia",2024-08-31T16:29:37.123300
+Montenegro,Euro,EU,"Albania, Croatia, Bosnia and Herzegovina, Serbia, Kosovo",2024-08-31T16:29:38.000546
+Montserrat,Dollar,NA,,2024-08-31T16:29:37.283299
+Morocco,Dirham,AF,"Algeria, Western Sahara, Spain",2024-08-31T16:29:37.956545
+Mozambique,Metical,AF,"Zimbabwe, Tanzania, Swaziland, South Africa, Zambia, Malawi",2024-08-31T16:29:45.241829
+Myanmar,Kyat,AS,"China, Laos, Thailand, Bangladesh, India",2024-08-31T16:29:44.827159
+Namibia,Dollar,AF,"South Africa, Botswana, Zambia, Angola",2024-08-31T16:29:43.643811
+Nauru,Dollar,OC,,2024-08-31T16:29:40.654517
+Nepal,Rupee,AS,"China, India",2024-08-31T16:29:41.497464
+Netherlands,Euro,EU,"Germany, Belgium",2024-08-31T16:29:43.543210
+Netherlands Antilles,Guilder,NA,Guadeloupe,2024-08-31T16:29:43.190761
+New Caledonia,Franc,OC,,2024-08-31T16:29:44.742237
+New Zealand,Dollar,OC,,2024-08-31T16:29:44.968155
+Nicaragua,Cordoba,NA,"Costa Rica, Honduras",2024-08-31T16:29:45.261830
+Niger,Franc,AF,"Chad, Benin, Algeria, Libya, Burkina Faso, Nigeria, Mali",2024-08-31T16:29:53.657458
+Nigeria,Naira,AF,"Chad, Niger, Benin, Cameroon",2024-08-31T16:29:51.708937
+Niue,Dollar,OC,,2024-08-31T16:29:48.853125
+Norfolk Island,Dollar,OC,,2024-08-31T16:29:48.546126
+North Korea,Won,AS,"China, South Korea, Russia",2024-08-31T16:29:51.000959
+Northern Mariana Islands,Dollar,OC,,2024-08-31T16:29:50.077415
+Norway,Krone,EU,"Finland, Russia, Sweden",2024-08-31T16:29:52.437212
+Oman,Rial,AS,"Saudi Arabia, Yemen, United Arab Emirates",2024-08-31T16:29:53.323923
+Pakistan,Rupee,AS,"China, Afghanistan, Iran, India",2024-08-31T16:29:53.703459
+Palau,Dollar,OC,,2024-08-31T16:29:53.085978
+Palestinian Territory,Shekel,AS,"Jordan, Israel",2024-08-31T16:29:56.989867
+Panama,Balboa,NA,"Costa Rica, Colombia",2024-08-31T16:29:57.067868
+Papua New Guinea,Kina,OC,Indonesia,2024-08-31T16:29:56.252045
+Paraguay,Guarani,SA,"Bolivia, Brazil, Argentina",2024-08-31T16:29:58.424806
+Peru,Sol,SA,"Ecuador, Chile, Bolivia, Brazil, Colombia",2024-08-31T16:29:59.629495
+Philippines,Peso,AS,,2024-08-31T16:29:57.789575
+Pitcairn,Dollar,OC,,2024-08-31T16:29:58.550814
+Poland,Zloty,EU,"Germany, Lithuania, Slovakia, Czech Republic, Belarus, Ukraine, Russia",2024-08-31T16:29:59.896888
+Portugal,Euro,EU,Spain,2024-08-31T16:29:59.153516
+Puerto Rico,Dollar,NA,,2024-08-31T16:29:59.512277
+Qatar,Rial,AS,Saudi Arabia,2024-08-31T16:30:02.826144
+Republic of the Congo,Franc,AF,"Central African Republic, Gabon, Democratic Republic of the Congo, Cameroon, Angola",2024-08-31T16:30:08.408781
+Reunion,Euro,AF,,2024-08-31T16:30:02.876681
+Romania,Leu,EU,"Moldova, Hungary, Ukraine, Serbia and Montenegro, Bulgaria, Serbia",2024-08-31T16:30:07.693720
+Russia,Ruble,EU,"Georgia, China, Belarus, Ukraine, Kazakhstan, Latvia, Poland, Estonia, Lithuania, Finland, Mongolia, Norway, Azerbaijan, North Korea",2024-08-31T16:30:08.780952
+Rwanda,Franc,AF,"Tanzania, Democratic Republic of the Congo, Burundi, Uganda",2024-08-31T16:30:07.062325
+Saint Barthelemy,Euro,NA,,2024-08-31T16:30:04.051526
+Saint Helena,Pound,AF,,2024-08-31T16:30:05.623864
+Saint Kitts and Nevis,Dollar,NA,,2024-08-31T16:30:07.156495
+Saint Lucia,Dollar,NA,,2024-08-31T16:30:08.142841
+Saint Martin,Euro,NA,Sint Maarten,2024-08-31T16:30:11.126126
+Saint Pierre and Miquelon,Euro,NA,,2024-08-31T16:30:11.034204
+Saint Vincent and the Grenadines,Dollar,NA,,2024-08-31T16:30:11.413894
+Samoa,Tala,OC,,2024-08-31T16:30:11.243256
+San Marino,Euro,EU,Italy,2024-08-31T16:30:11.337414
+Sao Tome and Principe,Dobra,AF,,2024-08-31T16:30:12.593655
+Saudi Arabia,Rial,AS,"Qatar, Oman, Iraq, Yemen, Jordan, United Arab Emirates, Kuwait",2024-08-31T16:30:16.897382
+Senegal,Franc,AF,"Guinea, Mauritania, Guinea-Bissau, Gambia, Mali",2024-08-31T16:30:15.764282
+Serbia,Dinar,EU,"Albania, Hungary, Macedonia, Romania, Croatia, Bosnia and Herzegovina, Bulgaria, Montenegro, Kosovo",2024-08-31T16:30:17.142473
+Serbia and Montenegro,Dinar,EU,"Albania, Hungary, Macedonia, Romania, Croatia, Bosnia and Herzegovina, Bulgaria",2024-08-31T16:30:17.020015
+Seychelles,Rupee,AF,,2024-08-31T16:30:19.330690
+Sierra Leone,Leone,AF,"Liberia, Guinea",2024-08-31T16:30:19.889688
+Singapore,Dollar,AS,,2024-08-31T16:30:19.237064
+Sint Maarten,Guilder,NA,Saint Martin,2024-08-31T16:30:19.383688
+Slovakia,Euro,EU,"Poland, Hungary, Czech Republic, Ukraine, Austria",2024-08-31T16:30:23.727156
+Slovenia,Euro,EU,"Hungary, Italy, Croatia, Austria",2024-08-31T16:30:23.034772
+Solomon Islands,Dollar,OC,,2024-08-31T16:30:20.518589
+Somalia,Shilling,AF,"Ethiopia, Kenya, Djibouti",2024-08-31T16:30:22.512104
+South Africa,Rand,AF,"Zimbabwe, Swaziland, Mozambique, Botswana, Namibia, Lesotho",2024-08-31T16:30:23.770156
+South Georgia and the South Sandwich Islands,Pound,AN,,2024-08-31T16:30:22.018142
+South Korea,Won,AS,North Korea,2024-08-31T16:30:26.356107
+South Sudan,Pound,AF,"Democratic Republic of the Congo, Central African Republic, Ethiopia, Kenya, Sudan, Uganda",2024-08-31T16:30:32.012125
+Spain,Euro,EU,"Andorra, Portugal, Gibraltar, France, Morocco",2024-08-31T16:30:30.133835
+Sri Lanka,Rupee,AS,,2024-08-31T16:30:26.097370
+Sudan,Pound,AF,"South Sudan, Chad, Egypt, Ethiopia, Eritrea, Libya, Central African Republic",2024-08-31T16:30:31.964904
+Suriname,Dollar,SA,"Guyana, Brazil, French Guiana",2024-08-31T16:30:29.716710
+Svalbard and Jan Mayen,Krone,EU,,2024-08-31T16:30:27.856199
+Swaziland,Lilangeni,AF,"South Africa, Mozambique",2024-08-31T16:30:30.462407
+Sweden,Krona,EU,"Norway, Finland",2024-08-31T16:30:31.884390
+Switzerland,Franc,EU,"Germany, Italy, Liechtenstein, France, Austria",2024-08-31T16:30:32.185490
+Syria,Pound,AS,"Iraq, Jordan, Israel, Turkey, Lebanon",2024-08-31T16:30:39.792719
+Taiwan,Dollar,AS,,2024-08-31T16:30:35.142031
+Tajikistan,Somoni,AS,"China, Afghanistan, Kyrgyzstan, Uzbekistan",2024-08-31T16:30:38.567433
+Tanzania,Shilling,AF,"Mozambique, Kenya, Democratic Republic of the Congo, Rwanda, Zambia, Burundi, Uganda, Malawi",2024-08-31T16:30:41.155606
+Thailand,Baht,AS,"Laos, Myanmar, Cambodia, Malaysia",2024-08-31T16:30:38.761419
+Togo,Franc,AF,"Benin, Ghana, Burkina Faso",2024-08-31T16:30:38.870497
+Tokelau,Dollar,OC,,2024-08-31T16:30:40.224340
+Tonga,Pa'anga,OC,,2024-08-31T16:30:40.413268
+Trinidad and Tobago,Dollar,NA,,2024-08-31T16:30:40.469268
+Tunisia,Dinar,AF,"Algeria, Libya",2024-08-31T16:30:41.137604
+Turkey,Lira,AS,"Syria, Georgia, Iraq, Iran, Greece, Armenia, Azerbaijan, Bulgaria",2024-08-31T16:30:50.147244
+Turkmenistan,Manat,AS,"Afghanistan, Iran, Uzbekistan, Kazakhstan",2024-08-31T16:30:47.100531
+Turks and Caicos Islands,Dollar,NA,,2024-08-31T16:30:43.443183
+Tuvalu,Dollar,OC,,2024-08-31T16:30:43.661310
+U.S. Virgin Islands,Dollar,NA,,2024-08-31T16:30:43.831109
+Uganda,Shilling,AF,"Tanzania, Kenya, South Sudan, Democratic Republic of the Congo, Rwanda",2024-08-31T16:30:49.202259
+Ukraine,Hryvnia,EU,"Poland, Moldova, Hungary, Slovakia, Belarus, Romania, Russia",2024-08-31T16:30:50.188244
+United Arab Emirates,Dirham,AS,"Saudi Arabia, Oman",2024-08-31T16:30:46.636379
+United Kingdom,Pound,EU,Ireland,2024-08-31T16:30:48.272901
+United States,Dollar,NA,"Canada, Mexico, Cuba",2024-08-31T16:30:50.066241
+United States Minor Outlying Islands,Dollar,OC,,2024-08-31T16:30:52.596522
+Uruguay,Peso,SA,"Brazil, Argentina",2024-08-31T16:30:53.820271
+Uzbekistan,Som,AS,"Turkmenistan, Afghanistan, Kyrgyzstan, Tajikistan, Kazakhstan",2024-08-31T16:30:56.797625
+Vanuatu,Vatu,OC,,2024-08-31T16:30:52.495039
+Vatican,Euro,EU,Italy,2024-08-31T16:30:52.876545
+Venezuela,Bolivar,SA,"Guyana, Brazil, Colombia",2024-08-31T16:30:56.231206
+Vietnam,Dong,AS,"China, Laos, Cambodia",2024-08-31T16:30:56.321366
+Wallis and Futuna,Franc,OC,,2024-08-31T16:30:54.433990
+Western Sahara,Dirham,AF,"Algeria, Mauritania, Morocco",2024-08-31T16:30:56.817624
+Yemen,Rial,AS,"Saudi Arabia, Oman",2024-08-31T16:30:56.747626
+Zambia,Kwacha,AF,"Zimbabwe, Tanzania, Mozambique, Democratic Republic of the Congo, Namibia, Malawi, Angola",2024-08-31T16:30:58.301309
+Zimbabwe,Dollar,AF,"South Africa, Mozambique, Botswana, Zambia",2024-08-31T16:30:58.565398

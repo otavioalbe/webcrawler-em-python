@@ -74,7 +74,7 @@ def scrape_all_countries(main_url, output_csv, delay_between_requests=1.0):
 
     with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['País', 'Nome da moeda', 'Continente', 'Países vizinhos', 'Timestamp'])
+        writer.writerow(['Pais', 'Nome_da_moeda', 'Continente', 'Países_vizinhos', 'Timestamp'])
         writer.writerows(data)
     print(f"Arquivo CSV criado: {output_csv}")
 
