@@ -2,91 +2,76 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
+import time
 
-def fetch_html(url):
-    response = requests.get(url)
-    if response.status_code == 200:
+def fetch_html(session, url):
+    try:
+        response = session.get(url, timeout=(5, 14))  # timeout de conexão e leitura
+        response.raise_for_status()
         return response.text
-    else:
-        print(f"Failed to retrieve the page. Status code: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao conectar: {e}")
         return None
 
-def get_country_links(main_url):
-    country_links = []
-    count = 0
-    while main_url:
-        html_content = fetch_html(main_url)
-        if html_content:
-            soup = BeautifulSoup(html_content, 'html.parser')
-            # Encontrando todos os links dos países na página atual
-            for a_tag in soup.find_all('a', href=True):
-                href = a_tag['href']
-                if 'view' in href:  # Verifica se o link é para um país
-                    country_links.append(href)
-
-            count = count + 1
-            print(f"Coletando páginas de países... Por favor aguarde ({count}/26) ")
-
-            # Verificando se existe um link "Next" para a próxima página
-            next_button = soup.find('a', string='Next >')  # Usando 'string' em vez de 'text'
-            if next_button:
-                next_href = next_button['href']
-                main_url = f"http://localhost:8000{next_href}"
-            else:
-                main_url = None  # Não há mais páginas para processar
-        else:
-            break  # Falha ao carregar a página, parar o loop
-    return country_links
-
-def scrape_country_data(country_url):
-    html_content = fetch_html(country_url)
+def scrape_country_data(session, country_url):
+    html_content = fetch_html(session, country_url)
     if html_content:
         soup = BeautifulSoup(html_content, 'html.parser')
-        # Extração dos dados
         country_name = soup.find('tr', id='places_country__row').find('td', class_='w2p_fw').text.strip()
         currency_name = soup.find('tr', id='places_currency_name__row').find('td', class_='w2p_fw').text.strip()
         continent = soup.find('tr', id='places_continent__row').find('td', class_='w2p_fw').text.strip()
 
-        # Extraindo países vizinhos
         neighbours_tags = soup.find('tr', id='places_neighbours__row').find('td', class_='w2p_fw').find_all('a')
         neighbours = []
-        
+
         for tag in neighbours_tags:
             neighbour_href = tag['href']
             neighbour_url = f"http://localhost:8000{neighbour_href}"
-            neighbour_html_content = fetch_html(neighbour_url)
+            neighbour_html_content = fetch_html(session, neighbour_url)
             if neighbour_html_content:
                 neighbour_soup = BeautifulSoup(neighbour_html_content, 'html.parser')
-                # Verificando se o <tr> com id 'places_country__row' existe
                 neighbour_row = neighbour_soup.find('tr', id='places_country__row')
                 if neighbour_row:
                     neighbour_name = neighbour_row.find('td', class_='w2p_fw').text.strip()
                     neighbours.append(neighbour_name)
-                else:
-                    print(f"País sem vizinhos...")
-        
+
         neighbours = ', '.join(neighbours)
-        
-        # Timestamp do momento de obtenção dos dados
         timestamp = datetime.now().isoformat()
 
         return [country_name, currency_name, continent, neighbours, timestamp]
     else:
         return None
 
-def scrape_all_countries(main_url, output_csv):
-    country_links = get_country_links(main_url)
+def scrape_all_countries(main_url, output_csv, delay_between_requests=1.0):
     data = []
-    
-    for link in country_links:
-        country_url = f"http://localhost:8000{link}"
-        country_name = link.split('/')[-1]  # Extrai o nome do país do link
-        print(f"\n============= Lendo dados do país {country_name} =============\n")
-        country_data = scrape_country_data(country_url)
-        if country_data:
-            data.append(country_data)
+    count = 0
 
-    # Salvando os dados em um arquivo CSV
+    with requests.Session() as session, ThreadPoolExecutor(max_workers=5) as executor:  # Reduzindo número de threads
+        while main_url:
+            html_content = fetch_html(session, main_url)
+            if html_content:
+                soup = BeautifulSoup(html_content, 'html.parser')
+                country_links = [f"http://localhost:8000{a_tag['href']}" for a_tag in soup.find_all('a', href=True) if 'view' in a_tag['href']]
+
+                results = executor.map(lambda url: scrape_country_data(session, url), country_links)
+                data.extend(filter(None, results))
+
+                count += 1
+                print(f"Página {count}/26 Por favor aguarde...")
+
+                next_button = soup.find('a', string='Next >')
+                if next_button:
+                    next_href = next_button['href']
+                    main_url = f"http://localhost:8000{next_href}"
+                else:
+                    main_url = None
+
+                time.sleep(delay_between_requests)  # Atraso entre as requisições para evitar sobrecarga
+
+            else:
+                break
+
     with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['País', 'Nome da moeda', 'Continente', 'Países vizinhos', 'Timestamp'])
