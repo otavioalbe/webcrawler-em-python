@@ -46,8 +46,26 @@ def scrape_country_data(country_url):
         country_name = soup.find('tr', id='places_country__row').find('td', class_='w2p_fw').text.strip()
         currency_name = soup.find('tr', id='places_currency_name__row').find('td', class_='w2p_fw').text.strip()
         continent = soup.find('tr', id='places_continent__row').find('td', class_='w2p_fw').text.strip()
+
+        # Extraindo países vizinhos
         neighbours_tags = soup.find('tr', id='places_neighbours__row').find('td', class_='w2p_fw').find_all('a')
-        neighbours = ', '.join([tag.text.strip() for tag in neighbours_tags])
+        neighbours = []
+        
+        for tag in neighbours_tags:
+            neighbour_href = tag['href']
+            neighbour_url = f"http://localhost:8000{neighbour_href}"
+            neighbour_html_content = fetch_html(neighbour_url)
+            if neighbour_html_content:
+                neighbour_soup = BeautifulSoup(neighbour_html_content, 'html.parser')
+                # Verificando se o <tr> com id 'places_country__row' existe
+                neighbour_row = neighbour_soup.find('tr', id='places_country__row')
+                if neighbour_row:
+                    neighbour_name = neighbour_row.find('td', class_='w2p_fw').text.strip()
+                    neighbours.append(neighbour_name)
+                else:
+                    print(f"País sem vizinhos...")
+        
+        neighbours = ', '.join(neighbours)
         
         # Timestamp do momento de obtenção dos dados
         timestamp = datetime.now().isoformat()
