@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
 import time
 
 def fetch_html(session, url):
@@ -42,21 +43,53 @@ def scrape_country_data(session, country_url):
     else:
         return None
 
-def scrape_all_countries(main_url, output_csv, delay_between_requests=0.5):
-    data = []
+def read_existing_data(csv_file):
+    existing_data = {}
+    try:
+        with open(csv_file, mode='r', newline='', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            next(reader)  # Pula o cabeçalho
+            for row in reader:
+                if row:
+                    country_name = row[0]
+                    existing_data[country_name] = row[1:]  # Exclui o nome do país
+    except FileNotFoundError:
+        print(f"O arquivo {csv_file} não foi encontrado. Um novo arquivo será criado.")
+    return existing_data
 
-    with requests.Session() as session:
+def update_csv(data, output_csv):
+    with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['País', 'Nome da moeda', 'Continente', 'Países vizinhos', 'Timestamp'])
+        for country, details in data.items():
+            writer.writerow([country] + details)
+
+def scrape_and_monitor(main_url, output_csv, delay_between_requests=1.0):
+    existing_data = read_existing_data(output_csv)
+    new_data = {}
+    
+    with requests.Session() as session, ThreadPoolExecutor(max_workers=5) as executor:
         while main_url:
             html_content = fetch_html(session, main_url)
             if html_content:
                 soup = BeautifulSoup(html_content, 'html.parser')
                 country_links = [f"http://localhost:8000{a_tag['href']}" for a_tag in soup.find_all('a', href=True) if 'view' in a_tag['href']]
 
-                for url in country_links:
-                    country_data = scrape_country_data(session, url)
-                    if country_data:
-                        data.append(country_data)
-                        print(f"Processando país: {country_data[0]}")
+                results = executor.map(lambda url: scrape_country_data(session, url), country_links)
+
+                for result in results:
+                    if result:
+                        country_name, *details = result
+                        if country_name in existing_data:
+                            if existing_data[country_name] != details:
+                                print(f"Atualizando dados para {country_name}.")
+                                new_data[country_name] = details
+                            else:
+                                print(f"Nenhuma mudança detectada para {country_name}.")
+                                new_data[country_name] = existing_data[country_name]
+                        else:
+                            print(f"Novo país encontrado: {country_name}. Adicionando ao CSV.")
+                            new_data[country_name] = details
 
                 next_button = soup.find('a', string='Next >')
                 if next_button:
@@ -65,18 +98,15 @@ def scrape_all_countries(main_url, output_csv, delay_between_requests=0.5):
                 else:
                     main_url = None
 
-                time.sleep(delay_between_requests)  # Atraso entre as requisições para evitar sobrecarga
+                time.sleep(delay_between_requests)
 
             else:
                 break
 
-    with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['Pais', 'Nome_da_moeda', 'Continente', 'Países_vizinhos', 'Timestamp'])
-        writer.writerows(data)
-    print(f"Arquivo CSV criado: {output_csv}")
+    update_csv(new_data, output_csv)
+    print(f"Monitoramento completo. Arquivo CSV atualizado: {output_csv}")
 
 # Exemplo de uso
 main_url = "http://localhost:8000/places/default/index"
 output_csv = 'dados_paises.csv'
-scrape_all_countries(main_url, output_csv)
+scrape_and_monitor(main_url, output_csv)
